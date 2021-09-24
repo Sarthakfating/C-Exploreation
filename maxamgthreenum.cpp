@@ -7,15 +7,15 @@ main(){
     cin>>x>>y>>Z;
     if(x>y){
         if(x>Z){
-            cout<<"X is maximum"<<endl;
+            cout<<x<<" is maximum"<<endl;
         }else{
-            cout<<"Z is maximum"<<endl;
+            cout<<Z<<" is maximum"<<endl;
         }
     }else{
         if(y>Z){
-            cout<<"y is maximum"<<endl;
+            cout<<y<<" is maximum"<<endl;
         }else{
-            cout<<"Z is maximim"<<endl;
+            cout<<Z<<" is maximim"<<endl;
         }
     }
     return 0;
