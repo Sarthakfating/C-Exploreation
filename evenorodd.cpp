@@ -1,0 +1,14 @@
+// WAP to check given no. is even or odd
+#include<bits/stdc++.h>
+using namespace std;
+main(){
+    int n;
+    cout<<"Enter your number"<<endl;
+    cin>> n;
+   if(n%2==0){
+       cout<<"Even"<<endl;
+   }else {
+       cout<<"Odd"<<endl;
+   }
+   return 0;
+}
