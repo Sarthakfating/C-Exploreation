@@ -7,7 +7,7 @@ main(){
     cin>>x>>y>>Z;
     if(x>y){
         if(x>Z){
-            cout<<x<<" is maximum"<<endl;
+            cout<<x<< " is maximum"<<endl;
         }else{
             cout<<Z<<" is maximum"<<endl;
         }

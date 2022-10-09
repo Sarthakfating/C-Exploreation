@@ -8,9 +8,9 @@ using namespace std;
      if(x==y){
          cout<<"Both are equal"<<endl;
      }else if(x>y){
-         cout<<x<<" is greater than"<<y<<endl;
+         cout<<x<<" is greater than"<< y<<endl;
      }else {
-         cout<<y<<" is greater than"<< x<<endl;
+         cout<<y<<" is greater than"<<x<<endl;
      }
  return 0;
 }
